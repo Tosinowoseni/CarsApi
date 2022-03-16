@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'cars',
 ]
 
 MIDDLEWARE = [
@@ -69,7 +71,7 @@ WSGI_APPLICATION = 'cars_project.wsgi.application'
 
 
 
-}
+
 
 
 # Password validation
